@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<!-- Formulario de contacto 23 de Junio del 2017 -->
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario de Contacto</title>
+ 
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/formularioestilo.css" rel="stylesheet">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 
+</head>
+  
+<body>
+  <div id="formulario">
+  <form class="form-group" action="php/contacto.php" method="POST" role="form" id="contacto" title="Nombre">
+   <label for="nombre">Nombre</label>
+   <input name="nombre" type="text" class="form-control" required="" id="nombre" placeholder="nombre" tabindex="1" title="Nombre">
+   <br>
+   <label for="apellido">Apellido</label>
+   <input name="apellido" type="apellido" class="form-control" required="" id="apellido" placeholder="apellido" tabindex="2" title="Apellido">
+   <br>
+   <label for="correo">Correo</label>
+   <input name="correo" type="text" required="" class="form-control" id="correo" placeholder="correo@dominio.com" tabindex="3" title="Correo">
+   <br>
+   <label for="telefono">Teléfono</label>
+   <input name="telefono" type="text" id="telefono" class="form-control" placeholder="teléfono" tabindex="4" title="Telefono">
+   <br>
+   <label for="Problema">Problema</label>
+   <textarea name="problema" rows="4" id="problema" class="form-control" placeholder="Escribe tu duda y/o problema" tabindex="6"></textarea>
+   <br>
+     <input type="submit" name="enviar" class=" btn-group-justified" tabindex="7" value="Enviar">
+     <input type="hidden" name="estado" value="1">
+   </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+label {
+	width: 140px;	
+	padding: 5px;
+}
+
+input {
+	width: 200px;	
+	padding: 4px;
+	margin: 5px 5px;	
+}
+
+#formulario {
+	width: 500px;
+	margin: 20px;
+	background-color:#E7E0E0;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border:thin #E7E0E0;
+}
